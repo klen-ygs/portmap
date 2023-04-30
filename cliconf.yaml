@@ -1,0 +1,11 @@
+
+# outPort是要映射的端口
+outPort: 8000
+# serverEndpoint是连接服务器的地址，其中端口对应服务器的outPort
+serverEndpoint: 127.0.0.1:1501
+# password是主机与服务器连接验证的密码
+password: klenLinux
+# key是主机与服务器通信时加密使用的key，长度必须为16
+key: 1234567891234567
+# retry是连接服务器失败时，重试时间，单位为秒
+retry: 5

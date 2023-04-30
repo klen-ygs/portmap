@@ -1,0 +1,11 @@
+instances:
+    # name是该端口映射实例的名字
+  - name: 测试
+    # webPort是用户连接的端口
+    webPort: 1500
+    # outPort是要映射端口的主机连接服务器的端口
+    outPort: 1501
+    # password是主机连接服务器验证密码
+    password: klenLinux
+    # key是主机与服务器通信时的加密生成key，长度必须为16
+    key: 1234567891234567
